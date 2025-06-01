@@ -11,7 +11,7 @@ pipeline {
                 echo 'Kod klonlanıyor...'
                 checkout([$class: 'GitSCM',
                 branches: [[name: '*/main']],
-                userRemoteConfigs: [[url: 'https://github.com/kullanici/proje.git']]])
+                userRemoteConfigs: [[url: 'https://github.com/bomobye/test_ci.git']]])
             }
 
         }
